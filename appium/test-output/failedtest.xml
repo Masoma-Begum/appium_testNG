@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Failed capture" guice-stage="DEVELOPMENT">
+
+ <test name="Test1">
+    <classes>
+      <class name="dsfdsf.AgiliboTest">
+        <methods>
+          <include name="correctCredentials"/>  
+        </methods>
+      </class> 
+    </classes>
+  </test> 
+  <test name="Test2">
+    <classes>
+      <class name="dsfdsf.AgiliboTest">
+        <methods>
+          <include name="incorrectCredentials"/> 
+        </methods>
+      </class> 
+    </classes>
+  </test> 
+</suite> 

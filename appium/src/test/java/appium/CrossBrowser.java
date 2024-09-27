@@ -37,8 +37,6 @@ public class CrossBrowser {
 				break;
 			}
 	    	driver.get("http://facebook.com");
-	           System.out.println();
-	           System.out.println();
 	        }
 	            
 	       
